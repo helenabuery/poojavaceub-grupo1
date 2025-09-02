@@ -17,4 +17,6 @@ classDiagram
   - estoque(): void
 }
 
+Usuario <|-- Cliente
+
 ```

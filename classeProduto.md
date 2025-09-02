@@ -33,8 +33,14 @@ classDiagram
     + getTipoDePele(): String
   }
 
+  class Acessorio {
+   - tipo: string
+   + usar(): void
+   + getTipo(): void
+}
   Produto <|-- Instrumento
   Instrumento <|-- Cordas
   Instrumento <|-- Metais
   Instrumento <|-- Percussao
+  Produto <|-- Acessorio
 ```

@@ -10,7 +10,6 @@ classDiagram
   + código: int
   - frequencia(): void
 }
-
   class Acessorio {
   - tipo: float
   + quantidade: int

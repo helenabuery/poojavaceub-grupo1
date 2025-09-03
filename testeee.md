@@ -39,5 +39,5 @@ classDiagram
    + getTipo(): void
 }
 cabeça quadrada
-
+alguma coisa
 ```

@@ -88,16 +88,19 @@ Cliente <|-- Usuario
     + getContato(): string
   }
 
-%% =============================
-associações
-%% ============================
+
+
+
 
 Venda "1" --> "0..*" Pedido : realiza pedido
 Venda "1" --> "0..*" Funciario : registra venda
 
-%% ============================
-Composições
-%% ===========================
+
+
+
+
+Fornecedor "1" o-- "0..*" Produto : dar produtos 
+
 
 
 

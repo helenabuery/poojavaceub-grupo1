@@ -99,8 +99,11 @@ Venda "1" --> "0..*" Funciario : registra venda
 
 
 
-Fornecedor "1" o-- "0..*" Produto : dar produtos 
+Fornecedor "1" o-- "0..*" Produto : dar produtos
 
+
+Venda "1" *-- "*" Pedido : Venda contem pedidos
+Pedido "1" *-- "*" Produto : contem preodutos
 
 
 

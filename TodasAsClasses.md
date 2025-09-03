@@ -89,22 +89,11 @@ Cliente <|-- Usuario
   }
 
 
-
-
-
-Venda "1" --> "0..*" Pedido : realiza pedido
-Venda "1" --> "0..*" Funciario : registra venda
-
-
-
-
-
-Fornecedor "1" o-- "0..*" Produto : dar produtos
-
-
-Venda "1" *-- "*" Pedido : Venda contem pedidos
-Pedido "1" *-- "*" Produto : contem preodutos
-
+  Venda -- Cliente : "1..* compras"
+  Venda -- Funcionario : "registrada por"
+  Venda *-- Pedido : "1..*"
+  Pedido *-- Produto : "1..*"
+  Fornecedor o-- Produto : "fornece"
 
 
 ```

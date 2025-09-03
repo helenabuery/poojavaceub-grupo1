@@ -38,5 +38,6 @@ classDiagram
    + usar(): void
    + getTipo(): void
 }
+cabeça quadrada
 
 ```
